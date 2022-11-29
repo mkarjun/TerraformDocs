@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "cross-account-upload",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "glacier:UploadArchive",
+                "glacier:InitiateMultipartUpload",
+                "glacier:AbortMultipartUpload",
+                "glacier:CompleteMultipartUpload",
+                "glacier:GetJobOutput",
+                "glacier:InitiateJob"
+            ],
+            "Resource": "arn:aws:glacier:<region>:<AccountID>:vaults/***AutomationTest-001" 
+        }
+    ]
+  }

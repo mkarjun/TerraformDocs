@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Terraform guide for Dummies 😎</title>
+    <link rel="icon" href="_media/favicon.ico" />
+    <meta
+      name="google-site-verification"
+      content="6t0LoIeFksrjF4c9sqUEsVXiQNxLp2hgoqo0KryT-sE"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="keywords"
+      content="doc,docs,documentation,gitbook,creator,generator,github,jekyll,github-pages"
+    />
+    <meta name="description" content="A magical documentation generator." />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+      title="vue"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css"
+      title="dark"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css"
+      title="buble"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/pure.css"
+      title="pure"
+      disabled
+    />
+  </head>
+
+  <body>
+    <div id="app">Loading ...</div>
+    <script>
+      (function() {
+    ! function(n) {
+        n.DocsifyCarbon = {
+            create: function(e, a) {
+                return function(t, o) {
+                    t.ready(function() {
+                        n.DocsifyCarbon.injectCarbonStyle()
+                    }), t.doneEach(function() {
+                        n.DocsifyCarbon.injectCarbonScript(e, a)
+                    })
+                }
+            },
+            injectCarbonScript: function(n, e) {
+                    t = document.querySelector(".sidebar-nav");
+                if (!a && t) {
+                    var o = document.querySelector("#".concat("_carbonads_js"));
+                    o ? o = o.parentNode.removeChild(o) : ((o = document.createElement("script")).src = "https://cdn.carbonads.com/carbon.js?serve=".concat(n, "&placement=").concat(e), o.async = "async", o.id = "_carbonads_js"), t.insertBefore(o, t.firstChild)
+                }
+            },
+            injectCarbonStyle: function() {
+                var n = document.createElement("style");
+                n.textContent = "\n        #carbonads * {\n          margin: initial;\n          padding: initial;\n        }\n\n        #carbonads {\n          max-width: 330px;\n          background-color: #fafafa;\n          font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto,\n            Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", Helvetica, Arial,\n            sans-serif;\n        }\n\n        #carbonads a {\n          color: inherit;\n          text-decoration: none;\n        }\n\n        #carbonads a:hover {\n          color: inherit;\n        }\n\n        #carbonads span {\n          display: block;\n          position: relative;\n          overflow: hidden;\n        }\n\n        #carbonads .carbon-wrap {\n          display: flex;\n        }\n\n        #carbonads .carbon-img img {\n          display: block;\n        }\n\n        #carbonads .carbon-text {\n          align-self: center;\n          margin-bottom: 20px;\n          padding: 8px 10px;\n          font-size: 12px;\n          line-height: 1.5;\n          text-align: left;\n        }\n\n        #carbonads .carbon-poweredby {\n          display: block;\n          position: absolute;\n          bottom: 0;\n          right: 0;\n          padding: 6px 8px;\n          border-top-left-radius: 3px;\n          background-color: #f1f1f1;\n          font-size: 8px;\n          font-weight: 600;\n          line-height: 1;\n          letter-spacing: 0.5px;\n          text-align: center;\n          text-transform: uppercase;\n        }\n      ", document.head.insertBefore(n, document.querySelector("head style, head link[rel*='stylesheet']"))
+            }
+        }
+    }(window);
+})();
+    </script>
+    <script>
+      // Set html "lang" attribute based on URL
+      var lang = location.hash.match(/#\/(de-de|es|ru-ru|zh-cn)\//);
+
+      if (lang) {
+        document.documentElement.setAttribute('lang', lang[1]);
+      }
+
+      // Docsify configuration
+      window.$docsify = {
+        alias: {
+          '.*?/awesome':
+            'https://raw.githubusercontent.com/docsifyjs/awesome-docsify/master/README.md',
+          '.*?/changelog':
+            'https://raw.githubusercontent.com/docsifyjs/docsify/master/CHANGELOG.md',
+          '/.*/_navbar.md': '/_navbar.md',
+          '/es/(.*)':
+            'https://raw.githubusercontent.com/docsifyjs/docs-es/master/$1',
+          '/de-de/(.*)':
+            'https://raw.githubusercontent.com/docsifyjs/docs-de/master/$1',
+          '/ru-ru/(.*)':
+            'https://raw.githubusercontent.com/docsifyjs/docs-ru/master/$1',
+          '/zh-cn/(.*)':
+            'https://cdn.jsdelivr.net/gh/docsifyjs/docs-zh@master/$1',
+        },
+        auto2top: true,
+        coverpage: true,
+        executeScript: true,
+        loadSidebar: true,
+        loadNavbar: true,
+        mergeNavbar: true,
+        maxLevel: 4,
+        subMaxLevel: 2,
+        ga: 'UA-106147152-1',
+        matomo: {
+          host: '//matomo.thunderwave.de',
+          id: 6,
+        },
+        name: 'Terraform',
+        nameLink: {
+          '/es/': '#/es/',
+          '/de-de/': '#/de-de/',
+          '/ru-ru/': '#/ru-ru/',
+          '/zh-cn/': '#/zh-cn/',
+          '/': '#/',
+        },
+        search: {
+          noData: {
+            '/es/': '¡No hay resultados!',
+            '/de-de/': 'Keine Ergebnisse!',
+            '/ru-ru/': 'Никаких результатов!',
+            '/zh-cn/': '没有结果!',
+            '/': 'No results!',
+          },
+          paths: 'auto',
+          placeholder: {
+            '/es/': 'Buscar',
+            '/de-de/': 'Suche',
+            '/ru-ru/': 'Поиск',
+            '/zh-cn/': '搜索',
+            '/': 'Search',
+          },
+          pathNamespaces: ['/es', '/de-de', '/ru-ru', '/zh-cn'],
+        },
+        vueComponents: {
+          'button-counter': {
+            template:
+              '<button @click="count += 1">You clicked me {{ count }} times</button>',
+            data: function () {
+              return {
+                count: 0,
+              };
+            },
+          },
+        },
+        vueGlobalOptions: {
+          data: function () {
+            return {
+              count: 0,
+              message: 'Hello, World!',
+              // Fake API response
+              images: [
+                { title: 'Image 1', url: 'https://picsum.photos/150?random=1' },
+                { title: 'Image 2', url: 'https://picsum.photos/150?random=2' },
+                { title: 'Image 3', url: 'https://picsum.photos/150?random=3' },
+              ],
+            };
+          },
+          computed: {
+            timeOfDay: function () {
+              const date = new Date();
+              const hours = date.getHours();
+
+              if (hours < 12) {
+                return 'morning';
+              } else if (hours < 18) {
+                return 'afternoon';
+              } else {
+                return 'evening';
+              }
+            },
+          },
+          methods: {
+            hello: function () {
+              alert(this.message);
+            },
+          },
+        },
+        vueMounts: {
+          '#counter': {
+            data: function () {
+              return {
+                count: 0,
+              };
+            },
+          },
+        },
+        plugins: [
+          DocsifyCarbon.create('CEBI6KQE', 'docsifyjsorg'),
+          function (hook, vm) {
+            hook.beforeEach(function (html) {
+              if (/githubusercontent\.com/.test(vm.route.file)) {
+                url = vm.route.file
+                  .replace('raw.githubusercontent.com', 'github.com')
+                  .replace(/\/master/, '/blob/master');
+              } else if (/jsdelivr\.net/.test(vm.route.file)) {
+                url = vm.route.file
+                  .replace('cdn.jsdelivr.net/gh', 'github.com')
+                  .replace('@master', '/blob/master');
+              } else {
+                url =
+                  'https://github.com/mkarjun/terraformdocs/' +
+                  vm.route.file;
+              }
+              var editHtml = '[:memo: Edit Document](' + url + ')\n';
+              return (
+                editHtml +
+                html +
+                '\n\n----\n\n' +
+                '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;"></a>'
+              );
+            })
+          },
+        ],
+      };
+    </script>
+    <script src="./lib.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+    <script>
+      // Public site only
+      if (/docsify/.test(location.host)) {
+        document.write(
+          '<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"><\/script>'
+        );
+        document.write(
+          '<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/matomo.min.js"><\/script>'
+        );
+      }
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
+    <!-- <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script> -->
+  </body>
+</html>
