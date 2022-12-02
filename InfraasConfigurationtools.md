@@ -14,22 +14,22 @@ We have seen the basics of Cloud Computing and Infrastructure as Code. Now we wi
 
 > We will be talking about Terraform in this Chapter.
 
-`So what is infra as config?` 
+`So what is infra as config?`
 
-> Wait .... lets see a scenario :thinking:
+> Wait, let's imagine a scenario :thinking:
 
 ```
-Your about to start a firm you need 10 or more virtual machines,you need that in particular specifications for each one.
-What will you do ...go  
+You're about to start a firm and need 10 or more virtual machines, each with its own set of specifications.
+What will you do? Go.  
 ```
-Instead of clicking through AWS(or any cloud platform) making each one, what if I say you can just simply say to your machine what you need and in what spec you want it to be ...
-Here the language we used to talk to our machine is `HCL[HashiCorp Configuration Language]`
+Instead of clicking through AWS (or any cloud platform) and creating each one, what if I told you that you can just simply say to your machine what you need and in what specifications you want it?
+Here, the language we use to talk to our machine is `HCL[HashiCorp Configuration Language]`
 
-> Aint that a good explanation..
+> Ain't that of a good explanation.
 
-It is a way to manage infrastructure using code. It is a way to automate configuring, and managing infrastructure. It is a way to manage infrastructure in a consistent and predictable way. It is a way to manage infrastructure in a way that is repeatable, auditable, and versionable. 
+It is a way to manage infrastructure using code. It is a way to automate configuration, and managing infrastructure. It is a way to manage infrastructure in a consistent and predictable way. It is a way to manage infrastructure in a way that is repeatable, auditable, and versionable.
 
- 
+
 
 
 

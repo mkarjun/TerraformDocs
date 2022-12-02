@@ -1,21 +1,21 @@
 "<a id="start">" </a>
-## A simple starter Terraform guide for Dummies 😎 
+## A simple starter Terraform guide for Dummies 😎
 
 > An open-source tool, to build infrastructure as configuration.
 
 ## Purpose of Document
 
-This document is a simple guide to get started with Terraform. It is not a complete guide, but it will help you to get started with Terraform.The reason to create this document is to help people who are new to Terraform such as me when I started.
+This document is a simple guide to getting started with Terraform. It is not a complete guide, but it will help you get started with Terraform. The reason to create this document is to help people who are new to Terraform, such as me when I started.
 
-At the end of it you should have the technical knowledge for `Trainee` roles like
+At the end of it, you will have the technical knowledge for `Trainee` roles like
 > Terraform Developer
 
 > Terraform Administrator
 
 ## Can I really get into Terraform by being self-taught?
 
- Yes just within productive 30 days`YOU COULD BECOME A TERRAFORM ASSOCIATE` 
- and from here you can start then go for advanced level of Terraform.
+ Yes, `YOU COULD BECOME A TERRAFORM ASSOCIATE` in just within productive 30 days .
+ And from here you can start, then go for the advanced level of Terraform.
 <!-- and [deploy it on GitHub Pages](deploy.md).
 See the [Quick start](quickstart.md) guide for more details. -->
 
@@ -42,4 +42,4 @@ Please consider donating if you think this course is helpful to you or that my w
 
 ## Community
 
-Let learn and share togather [Discord server](https://discord.gg/vUkyYccp).
+Let learn and share together [Discord server](https://discord.gg/vUkyYccp).
