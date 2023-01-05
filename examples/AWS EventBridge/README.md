@@ -71,4 +71,4 @@ module "eventbridge" {
 
 ## Authors
 
-- Cloud Platform Engineering
+- Arjun Manoj Kumar
