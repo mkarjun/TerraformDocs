@@ -94,4 +94,4 @@ resource_type | (Required)  The type of AWS resource to be backed up; for exampl
 | backup_vault_name      |The name of Backup vault created                 |
 
 ## Authors
-- Cloud Platform Engineering
+- Arjun Manoj Kumar
