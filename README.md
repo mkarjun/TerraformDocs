@@ -33,7 +33,7 @@ See the [Quick start](quickstart.md) guide for more details. -->
 | [7](phase7/README.md)                          | Terraform state,structuce and styling |  1 day     |
 | [8](phase8/README.md)                          | Terraform workspace,tips and tricks   |  1 day     |
 | [10](examples.md)                              | Tryout the examples                   |  1 day     |
-| [9](phase9/README.md)                          | Youtube Channel's and resources       |  optional  |
+| [9](phase9/YCR.md)                          | Youtube Channel's and resources       |  optional  |
 
 
 ## Donate
