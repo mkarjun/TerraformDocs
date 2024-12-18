@@ -25,9 +25,9 @@ See the [Quick start](quickstart.md) guide for more details. -->
 |-------|----------------------------------------|---------------------------------------|
 | [0](Chapter_0-Startfromzerotechexperience.md)  | Start from zero tech experience       | optional
 | [1](InfraasConfigurationtools.md)              | Infra as Configuration tools          |  2 days
-| [2](Terraformfundamentals.md)                          | Terraform fundamentals                |  2 days    |
-| [3](phase3/README.md)                          | Cloud Platform fundamentals           |  1/2 day   |
-| [4](phase4/README.md)                          | Varibles,main,output file             |  1 day     |
+| [2](phase2/Fundementals.md)                    | Terraform fundamentals                |  2 days    |
+| [3](phase3/CP_fundementals.md)                 | Cloud Platform fundamentals           |  1/2 day   |
+| [4](phase4/VMOF.md)                          | Varibles,main,output file             |  1 day     |
 | [5](phase5/README.md)                          | Version,Dynamic blocks                |  1 day     |
 | [6](phase6/README.md)                          | Terraform modules                     |  1 day     |
 | [7](phase7/README.md)                          | Terraform state,structuce and styling |  1 day     |
