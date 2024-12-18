@@ -20,8 +20,8 @@ module "eventbridge" {
 
 ## Examples
 
-- [EventBridge with Basic Configuration](examples\eventbridge-rule-with-basic-configuration\README.md)
-- [EventBridge with Multiple target Configuration](examples\eventbridge-rule-with-multiple-targets\README.md)
+- [EventBridge with Basic Configuration](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20elastic%20beanstalk)
+- [EventBridge with Multiple target Configuration](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20elastic%20beanstalk)
 
 ### **Requirements**
 

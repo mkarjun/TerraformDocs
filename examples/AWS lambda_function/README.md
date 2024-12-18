@@ -22,8 +22,8 @@ module "lambda_function" {
 
 ## Examples
 
--   [lambda with Basic Configuration](examples/lambda-with-basic-configuration/)
--   [lambda with Advanced Configuration](examples/lambda-with-advanced-configuration/)
+-   [lambda with Basic Configuration](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20lambda_function)
+-   [lambda with Advanced Configuration](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20lambda_function)
 
 ## Requirements
 

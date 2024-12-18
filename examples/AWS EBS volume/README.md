@@ -27,8 +27,8 @@ module "ebs" {
 - Allows provisioning of volumes from the snapshot ID specified.
 
 ## Examples
-- [Single EBS Volume with Basic Configuration](examples/single-ebs-volume-with-basic-configuration)
-- [Multiple EBS Volumes with Custom Configuration](examples/multiple-ebs-volumes-with-custom-configuration)
+- [Single EBS Volume with Basic Configuration](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20backup)
+- [Multiple EBS Volumes with Custom Configuration](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20backup)
 
 ## Requirements
 | Name	     | Version   |

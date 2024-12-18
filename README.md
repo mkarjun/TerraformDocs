@@ -27,13 +27,13 @@ See the [Quick start](quickstart.md) guide for more details. -->
 | [1](InfraasConfigurationtools.md)              | Infra as Configuration tools          |  2 days
 | [2](phase2/Fundementals.md)                    | Terraform fundamentals                |  2 days    |
 | [3](phase3/CP_fundementals.md)                 | Cloud Platform fundamentals           |  1/2 day   |
-| [4](phase4/VMOF.md)                          | Varibles,main,output file             |  1 day     |
+| [4](phase4/VMOF.md)                            | Varibles,main,output file             |  1 day     |
 | [5](phase5/README.md)                          | Version,Dynamic blocks                |  1 day     |
 | [6](phase6/README.md)                          | Terraform modules                     |  1 day     |
 | [7](phase7/README.md)                          | Terraform state,structuce and styling |  1 day     |
 | [8](phase8/README.md)                          | Terraform workspace,tips and tricks   |  1 day     |
 | [10](examples.md)                              | Tryout the examples                   |  1 day     |
-| [9](phase9/YCR.md)                          | Youtube Channel's and resources       |  optional  |
+| [9](phase9/YCR.md)                             | Youtube Channel's and resources       |  optional  |
 
 
 ## Donate

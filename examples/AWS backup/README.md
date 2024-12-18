@@ -22,9 +22,11 @@ module "backup" {
 }
 ```
 
+
+
 ## Examples
-- [AWS Backup with Basic Configuration](Examples/basic_configuration/)
-- [AWS Backup with Custom Configuration](Examples/custom_configuration)
+- [AWS Backup with Basic Configuration](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20backup)
+- [AWS Backup with Custom Configuration](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20backup)
 
 ### **Requirements**
 

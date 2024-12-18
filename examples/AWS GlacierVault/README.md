@@ -20,8 +20,8 @@ source = "./"
 
 ## Examples
 
-- [glacier-vault-basic-configuration](examples/glacier-vault/)
-- [glacier-vault-with-custom-configuration](examples/glacier-vault-with-custom-configuration/)
+- [glacier-vault-basic-configuration](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20elastic%20beanstalk)
+- [glacier-vault-with-custom-configuration](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20elastic%20beanstalk)
 
 ### **Requirements**
 

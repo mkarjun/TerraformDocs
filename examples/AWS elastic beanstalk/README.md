@@ -22,8 +22,8 @@ module "beanstalk_basic_configuration" {
 
 ## Examples
 
-- [beanstalk-basic-configuration](examples/beanstalk-basic-configuration/)
-- [beanstalk-with-custom-configuration](examples/beanstalk-with-custom-configuration/)
+- [beanstalk-basic-configuration](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20elastic%20beanstalk)
+- [beanstalk-with-custom-configuration](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20elastic%20beanstalk)
 
 ### **Requirements**
 | Name | Version |

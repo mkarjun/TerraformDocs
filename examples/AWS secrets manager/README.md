@@ -15,11 +15,11 @@ AWS Secrets Manager helps you protect secrets needed to access your applications
 
 ## Examples
 
--   [secrets-manager-BinarySecrets](Examples/BinarySecrets/)
--   [secrets-manager-key-value](Examples/KeyValue/)
--   [secrets-manager-MixedSecretDefinition](Examples/MixedSecretDefinition/)
--   [secrets-manager-plaintext](Examples/plainText/)
--   [secrets-manager-SecretRotation](Examples/Secret Rotation/)
+-   [secrets-manager-BinarySecrets](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20secrets%20manager)
+-   [secrets-manager-key-value](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20secrets%20manager)
+-   [secrets-manager-MixedSecretDefinition](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20secrets%20manager)
+-   [secrets-manager-plaintext](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20secrets%20manager)
+-   [secrets-manager-SecretRotation](https://github.com/mkarjun/TerraformDocs/tree/main/examples/AWS%20secrets%20manager)
 
 
 

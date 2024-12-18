@@ -14,4 +14,5 @@
 
 
 - [Tryout the examples](examples.md)
-- [Youtube Channel's and resources](changelog.md)
+- [Youtube Channel's and resources](ycr.md)
+
